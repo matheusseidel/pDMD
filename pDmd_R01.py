@@ -35,7 +35,7 @@ import math
 # ------------------- Parameter inputs ---------------------- #
 
 ti = 10                 # Initial timestep read
-tf = 1000               # Final timestep read (max=5000)
+tf = 5000               # Final timestep read (max=5000)
 par_svd = 10            # SVD rank
 par_tlsq = 10           # TLSQ rank
 par_exact = True        # Exact (boolean)
@@ -44,7 +44,7 @@ Pressure_modes = 1      # Run pressure dmd modes? 1 = Y, 0 = N
 Pressure_snaps = 1      # Run pressure dmd reconstruction? 1 = Y, 0 = N
 #Velocity_modes = 0     # Run velocity dmd modes? 1 = Y, 0 = N
 #Velocity_snaps = 0     # Run velocity dmd reconstruction? 1 = Y, 0 = N
-N = 21                  # Pre-defined number of subsets
+N = 20                  # Pre-defined number of subsets
 
 
 # ------------------------- Data ---------------------------- #
